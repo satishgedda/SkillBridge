@@ -1,0 +1,6 @@
+@import "tailwindcss";
+@theme { --color-navy:#101A35; --color-brand:#2563EB; --color-soft:#EEF4FF; --color-ink:#0F172A; --color-mute:#64748B; --font-display:'Bricolage Grotesque',sans-serif; --font-sans:'Figtree',system-ui,sans-serif; }
+body{background:#F8FAFC;color:#0F172A;font-family:var(--font-sans)}
+h1,h2,h3{font-family:var(--font-display);letter-spacing:-.02em}
+:focus-visible{outline:3px solid #2563EB;outline-offset:2px}
+@media print{body{background:#fff}}
